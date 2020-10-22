@@ -4,7 +4,7 @@ The goal of this assignment is to identify potential sources of bias may exist i
 
 ## API Documentation
 
-This project will use two datasets from the Wikipedia Talk corpus, which has open access to public through the [Perspective API](https://github.com/conversationai/perspectiveapi/blob/master/2-api/methods.md). Each dataset contains thousands of online discussion posts made by Wikipedia editors who were discussing how to write and edit Wikipedia articles. 
+This project will use two datasets from the Wikipedia Talk corpus [Terms of Use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en), which has open access to public through the [Perspective API](https://github.com/conversationai/perspectiveapi/blob/master/2-api/methods.md). Each dataset contains thousands of online discussion posts made by Wikipedia editors who were discussing how to write and edit Wikipedia articles. 
 
 Dataset description and schemas: https://meta.wikimedia.org/wiki/Research:Detox/Data_Release
 
