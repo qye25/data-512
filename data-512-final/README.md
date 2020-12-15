@@ -18,7 +18,7 @@ Movie recommendation systems are widely used by apps and websites, but it is cha
 
 The dataset contains two files `2018-personality-data.csv` and `2018_ratings.csv`. The personality data assessed over 1800 users’ personality traits using the Ten-item Personality Inventory (TIPI). And the rating data records user ratings of levels of diversity, popularity, and serendipity of a given list of movies. This data was originally collected for training recommendation systems based on user personality traits so it is very suitable for addressing my research goal. There is no specific license or terms of use for this dataset.
 
-#### data/2018-personality-data.csv
+#### [2018-personality-data.csv](data/2018-personality-data.csv)
 
 | Column | Description |
 |--------|-------------|
@@ -35,7 +35,7 @@ The dataset contains two files `2018-personality-data.csv` and `2018_ratings.csv
 | `is_personalized` | The response of the user to the question "This list is personalized for me" (1: Strongly Disagree, 5: Strongly Agree). |
 | `enjoy_watching` | The response of the user to the question "This list contains movies I think I enjoyed watching" (1: Strongly Disagree, 5: Strongly Agree). |
 
-#### data/2018_ratings.csv
+#### [2018_ratings.csv](data/2018_ratings.csv)
 
 | Column | Description |
 |--------|-------------|
@@ -46,9 +46,9 @@ The dataset contains two files `2018-personality-data.csv` and `2018_ratings.csv
 
 ### Processed Data
 
-#### processed_data/personality per person.csv
+#### [personality_per_person.csv](processed_data/personality_per_person.csv)
 
-This data is derived from the joined table of `2018-personality-data.csv` and `2018_ratings.csv`.
+This data is derived from the raw data.
 
 | Column | Description |
 |--------|-------------|
@@ -60,6 +60,15 @@ This data is derived from the joined table of `2018-personality-data.csv` and `2
 | `conscientiousness` | Assessment score (from 1 to 7) assessing user tendency to be organized and dependable, and show self-discipline. |
 | `extraversion` | Assessment score (from 1 to 7) assessing user tendency to be outgoing. |
 
+## Enviroment
+
+This analysis was prepared using Python 3.7 running in a Jupyter Notebook environment with the following packages.
+
+- NumPy 1.16.2
+- Pandas 0.24.2
+- Matplotlib 3.0.3
+- Seaborn 0.9.0
+
 ## References
 
 1. [Bottom-Up and Top-Down: Predicting Personality with Psycholinguistic and Language Model Features](https://github.com/yashsmehta/personality-prediction)
@@ -67,4 +76,4 @@ This data is derived from the joined table of `2018-personality-data.csv` and `2
 
 ## License
 
-This report is available under the [MIT License](LICENSE)
+This report is available under the [MIT License](LICENSE).
