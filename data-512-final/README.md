@@ -1,8 +1,10 @@
 # Personality and Movie Preference Analysis
 
 Data 512 Final Project
+
 Qinglang Ye
-The full report with implementation is in [`final project.ipynb`](final project.ipynb)
+
+The full report with implementation is in `final project.ipynb`
 
 ## Abstract
 
